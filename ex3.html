@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>question no 3</title>
+    </head>
+    <body>
+        <p id="demo"></p>
+        <button onclick=" assignGrade()">score </button>
+
+        <script>
+     function  assignGrade (){
+    var Marks=48;
+    if( Marks >=75)
+    {
+         grade="A";
+    }
+    else if (Marks >=60)
+    {
+         grade="B";
+    
+    }
+    else if (Marks>=45)
+    {
+        grade ="C";
+    
+    }
+    else if (Marks <45)
+    {
+         grade="F";
+    
+    }
+    document.getElementById("demo").innerHTML =grade;
+}
+        </script>
+    </body>
+</html>
+   
+
+

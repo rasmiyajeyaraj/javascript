@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>question no 3</title>
+    </head>
+    <body>
+        <p id="demo"></p>
+       <button onclick=" colour()">score </button>
+
+        <script>
+     function colour(){
+    var num=48;
+    if(num>0 && num<10)
+    {
+         clr="Blue";
+    }
+    else if (num>10 && num<20)
+    {
+         clr="Red";
+    
+    }
+    else if (num>20 && num<30)
+    {
+         clr ="Green";
+    
+    }
+    else  {
+          clr=" It is not a correct colour ";
+    
+    }
+      document.getElementById("demo").innerHTML =clr;  
+}
+        </script>
+    </body>
+</html>
+   
+
+

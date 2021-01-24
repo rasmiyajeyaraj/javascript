@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>for</title>
+    </head>
+    <body>
+        <p id="demo">
+        
+        </p>
+        <script>
+         
+            var i=5;
+            var numtext="";
+            for (;i<=100; i=i+5 )
+            {
+                if(i===50)
+                  {
+                      continue;
+                  }
+                  numtext+="Number :"+i+"<br>";
+            }
+            document.getElementById("demo").innerHTML=numtext;
+        </script>
+    </body>
+</html>

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Document</title>
+</head>
+<body>
+    <p id="demo"></p>
+    <p id="demo1"></p>
+    <button onclick="message()">message</button>
+    <script>
+      /*  var age= 25;
+        if(age>18)
+
+        {
+            document.getElementById("demo").innerHTML ="ELIGIBLEfor driving licence";
+        }*/
+        function Message(){
+            var age=17;
+            if( age<13)
+            {
+                 msg ="you are child";
+            }
+            else if (age<20)
+            {
+                msg ="you are teenage";
+            
+            }
+            else if (age<40)
+            {
+                msg ="you are young";
+            
+            }
+            else  
+            {
+                msg ="you are old";
+            
+            }
+            document.getElementById("demo1").innerHTML =msg;
+        }
+
+
+       /* var day;
+        var dayno= new Date().getDay();
+        switch (dayno)
+        {
+            case 0:
+            case 6: 
+            dat="this day is weekend";
+            break;
+            case 1:
+            case 2: 
+            case 3:
+            day="this day is weekday";
+            break;
+           
+            case 4: 
+            case 5:
+            day="weekend is comming";
+            break;
+
+            
+        }
+        document.getElementById("demo1").innerHTML =day;*/
+
+
+
+
+         /*  var i;
+            var numtext="";
+            for( i=5;i<101;i=i+5)
+            {
+                numtext+="Number :"+i+"<br>";
+        
+            }
+            document.getElementById("demo").innerHTML=numtext;*/
+
+            /*var i=10;
+            var numtext="";
+            while (i>=1){
+                numtext+=" <br> Number :"+i;
+                i++;
+            }
+            document.getElementById("demo").innerHTML=numtext;*/ 
+    </script>
+</body>
+</html>

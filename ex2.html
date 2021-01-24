@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>question no 1</title>
+    </head>
+    <body>
+      <!--- <button onclick="greaterNum()">Max is</button>-->
+
+<p id="demo"></p>
+<p id="demo1"></p>
+
+<script>
+//function greaterNum(num1,num2) {
+ 
+  /*var num1=5;
+  var num2=8;
+  var max;
+  if (num1>num2) {
+    max= "The greater number is "+num1;
+  } else {
+   max= "The greater number is "+num2;
+  }
+  document.getElementById("demo").innerHTML =max;
+ 
+}*/ 
+//var student=new Array("ravi","raju");
+
+/*var student=["ravi","raju","puvi","kaja"];
+student=[5]="ganu";
+document.getElementById("demo").innerHTML=student;
+document.getElementById("demo1").innerHTML=student[1];*/ 
+var student=["ravi","raju","puvi","kaja"];
+var tag="<ol>";
+  for(var i=0;i<=student.length-1;i++ )
+  {
+    tag+="<li>" +student[i] +"</li>";
+  }
+  tag+="</ol>";
+  document.getElementById("demo").innerHTML =tag;
+</script>
+    </body>
+</html>
